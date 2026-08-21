@@ -53,9 +53,6 @@ Each execution follows a highly structured data flow:
 ```text
 .github/
     workflows/             # CI/CD pipelines
-src/
-    prompts/               # System prompts for analysts, synthesizer, and campaign generator
-    data-samples/          # Mock CSV/JSON files for testing
 assets/
     metric-based-ai-content-strategy-campaign-generator.png
 docs/
