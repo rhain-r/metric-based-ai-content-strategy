@@ -18,9 +18,10 @@ Ensure you have active accounts and API credentials for:
 3. Authenticate the Google Drive, OpenAI, and Gmail nodes.
 
 ## 3. Configuring Prompts
-1. Navigate to the `src/prompts/` directory.
-2. Carefully paste the respective system instructions into the different LLM nodes. 
-   * *Note: The "Instagram Analyst" prompt must be distinctly different from the "Strategic Synthesizer" prompt.*
+1. Open your automation workflow editor.
+2. Locate the specific LLM nodes (e.g., "Instagram Analyst", "Strategic Synthesizer", "Campaign generator").
+3. Input your specific system instructions directly into the prompt fields of each node. 
+
 
 ## 4. Testing the Pipeline
 1. Upload sample metrics files to your Google Drive folder.
